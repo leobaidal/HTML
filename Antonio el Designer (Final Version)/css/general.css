@@ -1,0 +1,343 @@
+ body {
+	font-family: Arial, Helvetica, "Sans Serif";
+}
+/*
+div {
+	border: 1px solid gray;
+}
+*/
+#page {
+	width: 1200px;
+	height: 1600px;
+	margin: 0 auto;
+	background-image: url('../images/backgorundgeneral.png');
+}
+
+#header {
+	background-image: url('../images/top_nav.png');
+	background-repeat: no-repeat;
+	height: 56px;
+}
+
+#logo {
+	margin-left: 130px;
+	box-shadow: 4px 1px 5px #333;
+}
+
+#menu {
+	float: right;
+	padding: 0px;
+	margin-right: 120px;
+}
+
+#menu li	 {
+	display: inline;
+	margin-left: 36px;
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+#content {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#banner {
+   background-image: url('../images/banner.png');
+   background-repeat: no-repeat;
+}
+
+#tab {
+	float: right;
+	width: 480px;
+	height: 386px;
+	background-image: url('../images/triangulo.png');
+}
+
+#tab div {
+	width: 350px;
+	}
+
+.StopRod {
+	clear: both;
+}
+
+
+
+#claim {
+	margin-left: 125px;
+
+}
+
+#text {
+	margin-left: 100px;
+	color: #0e218a;
+	font-size: 24pt;
+	font-weight: bold;
+	text-transform: capitalize;
+	float: right;
+}
+
+#RandomText {
+	margin-top: 10px;
+	font-size: 8pt;
+}
+
+#tab div {
+	color: #777;
+
+}
+
+#tab p {
+	margin-left: 18px;
+}
+
+.CenteredButton{
+	margin-top: 30px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.Offer {
+	width: 480px;	
+	display: inline-block;
+}
+
+#Products {
+	position: relative;
+	top: -45px;
+	left: 35px;
+	margin-left: 10px;
+
+}
+
+#Subproduct {
+	position: relative;
+	display: inline;
+	left: -20px;
+	bottom: -15px;
+
+}
+
+.description {
+	position: relative;
+	color: 777777;
+	font-family: Arial, Helvetica, "Sans Serif";
+	font-size: 8pt;
+}
+
+.Author {
+	position: relative;
+	color: #c0bb9a;
+	font-family: Arial, Helvetica, "Sans Serif";
+	font-size: 6pt;	
+}
+
+.Description {
+	position: relative;
+	bottom: 160px;
+	left: 220px;
+	color: #777777;
+	font-family: Arial, Helvetica, "Sans Serif";
+	font-size: 10pt;	
+}
+	
+.AloneButton {
+	position: relative;
+	left: -243px;
+	float: right;
+}
+
+.Products2 {
+	margin-top: -80px;
+}
+
+.Products3 {
+	margin-top: -80px;
+}
+
+#services {
+	float: right;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+.topic2 {
+	text-align: center;
+	font-family: Arial, Helvetica, "Sans Serif";
+	color: #172A90;
+}
+
+.subtopic {
+	bottom: 53px;
+	right: -40px;
+	font-size: 10pt;
+	color: #a19c80;
+	position: relative;
+}
+
+.description2 {
+	position: relative;
+	margin-top: -60px;
+	font-family: Arial, Helvetica, "Sans Serif";
+	font-size: 8pt;
+	color: #777777;
+}
+
+.JustaButton {
+	position: relative;
+
+	left: 93px;
+}
+
+#Izquierda{
+	position: relative;
+	margin-left: 50px;
+	float: left;
+}
+
+#Derecha {
+	position: relative;
+	margin-right: 50px;
+	float: right;
+}
+
+#information2 {
+	padding-top: 10px;
+}
+
+#information4 {
+	padding-top: 10px;
+}
+
+#twitter {
+	position: relative;
+	bottom: -300px;
+	left: -150px;
+}
+
+#CajaTwitter{
+	width: 200px;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 200px;
+}
+
+.followtext {
+	bottom: 75px;
+	right: -70px;
+	font-size: 10pt;
+	color: #539fc7;
+	position: relative;
+}
+
+#PostTwitter {
+	position: relative;
+	right: -120px;
+	bottom: 190px;
+	float: right;
+}
+
+.post {
+	position: relative;
+	font-family: Arial, Helvetica, "Sans Serif";
+	font-size: 9pt;
+	color: 777777;
+}
+
+.diapost {
+	position: relative;
+	top: -10px;
+	font-size: 8pt;
+	color: #9a967d;
+}
+
+#PieDePagina{
+	margin-top: 30px;
+}
+
+#Left {
+    width: 500px;
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 120px;
+}
+
+#Center {
+	width: 300px;
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 500px;
+	text-align: left;
+}
+
+#Right {
+    width: 700px;
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 780px;
+}
+
+#headleft {
+	color: #ffffff;
+	font-size: 10pt;
+}
+.lefttext {
+	color: #ffffff;
+	font-size: 9pt;
+}
+
+#leftbutton {
+	float: left;
+}
+
+#centerinfo2 {
+	position: relative;
+	bottom: 35px;
+}
+
+#centerinfo3 {
+	position: relative;
+	bottom: 70px;
+}
+
+#centerinfo4 {
+	position: relative;
+	bottom: 105px;
+}
+
+#centerinfo5 {
+	position: relative;
+	bottom: 140px;
+}
+
+#centerinfo6 {
+	position: relative;
+	bottom: 175px;
+}
+
+.centertext {
+	position: relative;
+	bottom: 32px;
+	right: -25px;
+	font-size: 9pt;
+	color: #FFFFFF;
+}
+
+#headcenter {
+	
+	color: #ffffff;
+	font-size: 10pt;
+}
+
+#headright {
+	color: #FFF;
+	font-size: 10pt;
+}
+
+#righttext {
+	color: #FFF;
+	font-size: 9pt;
+}
