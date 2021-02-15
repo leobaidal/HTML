@@ -92,7 +92,7 @@ header a:hover {
 }
 
 .bt-text {
-  padding: 0% 5% 0% 5%;
+  padding: 0% 5% 5% 5%;
 }
 
 .ct-btn {
@@ -113,18 +113,38 @@ button:hover {
 }
 
 .services {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  display: block;
   background-color: #fcfbfa;
 }
 
-.product-list {
-  position: relative;
-  display: inline-block;
+@media all and (min-width: 768px) {
+  .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    background-color: #fcfbfa;
+  }
+}
+
+.product, .offer {
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+}
+
+@media (max-width: 767px) {
+  .product, .offer {
+    border: 1px #e8e7e6 solid;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .product, .offer {
+    text-align: left;
+    padding-top: 5%;
+  }
 }
 
 .readmore-button {
@@ -134,14 +154,6 @@ button:hover {
   font-weight: bold;
   background-color: #3b3f7c;
   border: solid;
-}
-
-.product {
-  padding: 5% 0% 0% 0%;
-}
-
-.offer {
-  padding-top: 5%;
 }
 
 .offer-title {

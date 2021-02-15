@@ -64,7 +64,7 @@ header a:hover {
 }
 
 .bt-text {
-	padding: 0% 5% 0% 5%;
+	padding: 0% 5% 5% 5%;
 }
 
 .ct-btn {
@@ -87,14 +87,28 @@ button:hover{
 
 
 .services {
-	display: flex;
-	justify-content: space-evenly;
+	display: block;
 	background-color: rgb(252, 251, 250);
+
+	@media all and (min-width: 768px) {
+		display: flex;
+		justify-content: space-evenly;
+		background-color: rgb(252, 251, 250);
+	}
 }
 
-.product-list {
-	position: relative;
-	display: inline-block;
+.product, .offer {
+	text-align: center;
+	padding: 5% 0% 5% 0%;
+
+	@media (max-width: 767px) {
+		border: 1px rgb(232, 231, 230) solid;
+	}
+	
+	@media all and (min-width: 768px) {
+		text-align: left;
+		padding-top: 5%;
+	}
 }
 
 .readmore-button {
@@ -104,14 +118,6 @@ button:hover{
 	font-weight: bold;
 	background-color: rgb(59, 63, 124);
 	border: solid;
-}
-
-.product {
-	padding: 5% 0% 0% 0%;
-}
-
-.offer {
-	padding-top: 5%;
 }
 
 .offer-title {
